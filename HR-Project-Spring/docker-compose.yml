@@ -1,0 +1,28 @@
+version: '3.1'
+
+networks:
+  java_10_network:
+      driver: bridge
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: java_10_rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=123456789
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - java_10_network
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - "27017:27017"
+    networks:
+      - java_10_network

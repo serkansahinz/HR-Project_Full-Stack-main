@@ -1,0 +1,22 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-col{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

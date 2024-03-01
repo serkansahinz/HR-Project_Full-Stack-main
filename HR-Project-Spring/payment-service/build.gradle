@@ -1,0 +1,7 @@
+dependencies{
+
+    implementation libs.springBootDataMongo
+    implementation libs.springCloudConfigClient
+    implementation libs.springBootSecurity
+    implementation libs.googleStorage
+}

@@ -1,0 +1,17 @@
+@import "../../styles/mixin.scss";
+
+$name: "Roboto";
+@include font-face($name, "Black", 900);
+@include font-face($name, "BlackItalic", 900) {
+  font-style: italic;
+}
+@include font-face($name, "Bold", 700);
+@include font-face($name, "BoldItalic", 700, italic);
+@include font-face($name, "Light", 300);
+@include font-face($name, "LightItalic", 300, italic);
+@include font-face($name, "Medium", 300);
+@include font-face($name, "MediumItalic", 300, italic);
+@include font-face($name, "Thin", 100);
+@include font-face($name, "ThinItalic", 100, italic);
+@include font-face($name, "Regular", 400);
+@include font-face($name, "Italic", 400, italic);

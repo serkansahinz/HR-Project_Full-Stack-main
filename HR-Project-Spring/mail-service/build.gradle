@@ -1,0 +1,9 @@
+
+dependencies {
+    implementation libs.springBootMailSender
+    implementation libs.springBootRabbitMq
+    implementation libs.springCloudConfigClient
+    implementation libs.tymelift
+    implementation libs.swaggerui
+}
+

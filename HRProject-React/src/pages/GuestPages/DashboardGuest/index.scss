@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.carousel {
+    width: 100%; /* Sayfanın genişliğinin yüzde 100'ü kadar genişlik ayarı yapılır */
+    max-width: 1440px; /* Sayfanın maksimum genişliği 1440px olacak şekilde ayarlanır */
+    margin: 0 auto; /* Sayfanın ortasına yerleştirme */
+    height: 400px; /* Carousel bileşeninin yüksekliği 400px olarak ayarlanır (istediğiniz değeri kullanabilirsiniz) */
+    overflow: hidden; /* Carousel içeriğinin sayfa genişliğini aşmasını engeller */
+    border-radius: 20px;
+}
+
+.carousel img {
+    width: 100%; /* Resmin genişliği carousel'in içine tam olarak sığacak şekilde ayarlanır */
+    height: auto; /* Yükseklik oranını koruyarak resmin otomatik olarak boyutlandırılması sağlanır */
+}
+.header{
+    display: block;
+    
+}
+
+.header-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.header-button-row{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.main-layout{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.content{
+    height: 100%;
+}
+
+.sider{
+    border-radius: 50px;
+}
+

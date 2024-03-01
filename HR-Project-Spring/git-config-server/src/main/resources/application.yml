@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HR_GIT_CONFIG}
+          default-label: main
+          skip-ssl-validation: true
+          username: ${GIT_USERNAME}
+          password: ${HR_GIT_TOKEN}

@@ -1,0 +1,28 @@
+server:
+  port: 7074
+
+spring:
+  main:
+    banner-mode: off
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: mongo
+      password: root
+      database: ECommercePayment
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+feign:
+  user: http://localhost:7072/api/v1/user
+
+
+
+

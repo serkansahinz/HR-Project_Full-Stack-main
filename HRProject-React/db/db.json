@@ -1,0 +1,62 @@
+{
+  "auth": [
+    {
+      "name": "mehmet",
+      "surname": "oksuz",
+      "phone": "213",
+      "password": "123456",
+      "email": "mehmet@gmail.com",
+      "role": "visitor",
+      "id": 9
+    },
+    {
+      "managerName": "Ünal",
+      "managerSurname": "Berk",
+      "managerPhone": "123123",
+      "password": "123456",
+      "email": "unal@gmail.com",
+      "companyPhone": "1234123",
+      "companyEmail": "gani@info.com",
+      "companyName": "gani",
+      "companyTaxNumber": "123456",
+      "companyAddress": {
+        "province": "Jiangsu",
+        "street": "üst yol"
+      },
+      "role": "company",
+      "id": 10
+    },
+    {
+      "name": "burak",
+      "surname": "delice",
+      "prefix": "86",
+      "phone": "123",
+      "email": "burak@mail.com",
+      "password": "123456",
+      "confirm": "123456",
+      "agreement": true,
+      "role": "visitor",
+      "id": 11
+    },
+    {
+      "company-manager-name": "burak",
+      "company-manager-surname": "delice",
+      "email": "burak2@mail.com",
+      "password": "123456",
+      "confirm": "123456",
+      "prefix": "86",
+      "phone": "123",
+      "company-info-email": "burak@mail.com",
+      "company-name": "burak",
+      "company-tax-number": "123",
+      "company-phone": "123",
+      "address": {
+        "province": "Zhejiang",
+        "street": "123"
+      },
+      "agreement": true,
+      "role": "company",
+      "id": 12
+    }
+  ]
+}

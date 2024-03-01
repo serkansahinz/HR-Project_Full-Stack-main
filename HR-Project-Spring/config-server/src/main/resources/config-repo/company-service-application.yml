@@ -1,0 +1,26 @@
+server:
+  port: 7073
+spring:
+  main:
+    banner-mode: off
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: mongo
+      password: root
+      database: ECommerceCompany
+      auto-index-creation: true
+
+rabbitmq:
+  register-queue: register-queue
+
+feign:
+  auth: http://localhost:7071/api/v1/auth
+

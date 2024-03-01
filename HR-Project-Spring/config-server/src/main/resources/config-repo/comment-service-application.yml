@@ -1,0 +1,20 @@
+server:
+  port: 7076
+spring:
+  main:
+    banner-mode: off
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: mongo
+      password: root
+      database: ECommerceComment
+
+
+

@@ -1,0 +1,13 @@
+rootProject.name = 'HRProject'
+include 'auth-service'
+include 'user-service'
+include 'config-server'
+include 'mail-service'
+include 'auth-service'
+include 'company-service'
+include 'payment-service'
+include 'comment-service'
+include 'permission-service'
+include 'api-gateway-service'
+include 'git-config-server'
+

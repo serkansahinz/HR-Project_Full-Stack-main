@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 20px 30px 40px 30px;
+            color: #666666;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+
+        .footer {
+            background-color: #ffffff;
+            padding: 0px 30px 40px 30px;
+            border-radius: 0px 0px 4px 4px;
+            color: #666666;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <p>MERHABA <span th:utext="${name} + ' ' + ${surname}"></span>,</p>
+        <p>Aramıza hoş geldin! İşte şirket bilgilerin:</p>
+        <p>Email: <span th:utext="${email}"></span></p>
+        <p>Şifre: <span th:utext="${password}"></span></p>
+
+    </div>
+
+    <div class="footer">
+        <p>Eğer herhangi bir sorunuz varsa, bu e-postaya cevap yazarak bizimle iletişime geçebilirsiniz. Yardımcı
+            olmaktan mutluluk duyarız.</p>
+        <p>Bilge Adam Java 10 Ekibi</p>
+    </div>
+</div>
+</body>
+</html>

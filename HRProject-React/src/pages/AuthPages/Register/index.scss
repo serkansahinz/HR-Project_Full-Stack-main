@@ -1,0 +1,56 @@
+/*.register-page{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  .register-photo{
+   width: 200px;
+   height: 100px;
+  }
+   .register-form {
+    max-width: 500px;
+    }
+   .register-form-forgot {
+      float: right;
+    }
+   .register-form-forgot {
+      float: left;
+    }
+   .register-form-button {
+      width: 100%;
+    }
+  
+*/
+    .register-page{
+      display: flex;
+      justify-content: center;
+      height: 700px;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .register-form{
+      display: flex;
+      align-items: center;
+      border: solid #a4d926 3px;
+      flex-direction: column;
+      border-radius: 16px;
+      padding: 40px;
+      
+  }
+  
+  .ant-form-item{
+      width: 100%;
+      
+  }
+ 
+  .ant-form-item-control{
+      margin-inline-start: 0px;
+  }
+  .register-button{
+      display: block;
+  }
+  .agreement-register{
+    padding-right: 30px;
+  }
+  

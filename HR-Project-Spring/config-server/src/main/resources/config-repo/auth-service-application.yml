@@ -1,0 +1,40 @@
+server:
+  port: 7071
+spring:
+  main:
+    banner-mode: off
+  security:
+    user:
+      name: user
+      password: 123456789
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+  datasource:
+    username: postgres
+    password: 123456789
+    url: jdbc:postgresql://localhost:5432/ECommerceAuth
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+rabbitmq:
+  auth-exchange: auth-exchange
+  register-binding-key: register-key
+  register-queue: register-queue
+  activation-binding-key: activation-key
+  activation-queue: queue-activation
+  mail-queue: queue-mail
+  mail-binding-key: mail-key
+  company-register-queue: queue-company-register
+  company-register-binding-key: company-register-key
+  company-activation-queue: company-activation-queue
+
+feign:
+  user: http://localhost:7072/api/v1/user
+
+

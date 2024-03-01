@@ -1,0 +1,30 @@
+.login-page{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+}
+.login-photo{
+ width: 200px;
+ height: 100px;
+}
+ .login-form {
+  display:flex;
+  flex-direction: column;
+  max-width: 500px;
+  }
+ .login-form-forgot {
+    float: right;
+  }
+ .login-form-forgot {
+    float: left;
+  }
+ .login-form-button {
+    width: 100%;
+  }
+  .remember-col{
+    display: flex;
+    align-items: center;
+  }
+
+ 
