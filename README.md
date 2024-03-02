@@ -3,8 +3,6 @@
 ## Human Resources Management System
 
 A project created to manage human resources processes for commercial companies through a platform.
-You can access the promotional video of the project from this link.
-
 
 ### Architecture
 
@@ -12,17 +10,17 @@ You can access the promotional video of the project from this link.
 
 ### About the Project
 
-This human resources application encompasses four different roles: admin, company manager, employee, and guest. Each role is equipped with a control panel, profile, and pages designed for their respective tasks.
+Human resources application encompasses four different roles: admin, company manager, employee, and guest. Each role is equipped with a control panel, profile, and pages designed for their respective tasks.
 
 When a company manager registers, the records are approved by the admin. Once approved, the company manager gains access to the system and can then add employees to the system.
 
 The employee profile page includes personal information, salary details, and shift schedules. The employee control panel also provides general holiday information and details related to the company they are employed by.
 
-Employees can submit comments about their companies, but these comments are only published after admin approval.
+Employees can submit comments about their companies, but these comments require admin approval to be published.
 
-For company managers, there is a special page containing comprehensive information about their company's financial status, including income, expenses, and profit/loss data.
+Company managers have a special page containing comprehensive information about their company's financial status which includes income, expenses, and profit/loss data.
 
-Guests who register for the application can access information and comments related to all registered companies within the application.
+Guests can register into the application and access information and comments related to all registered companies within the application.
 
 ### Usage
 
@@ -30,4 +28,4 @@ To run these sample applications, you need to have Gradle and JDK 8 or higher ve
 
 ### Docker Compose Usage
 
-1. By running the Docker compose file within the project, you can install and run the necessary dependencies in Docker.
+By running the Docker compose file within the project, you can install and run the necessary dependencies in Docker.
